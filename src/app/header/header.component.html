@@ -1,0 +1,14 @@
+<header>
+    <div class="header_top">
+        <a routerLink="/">
+            <img src="../../assets/logo.png" alt="Logo">
+        </a>
+    </div>
+
+    <nav>
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">მთავარი</a>
+        <a [routerLink]="['posts/საპატრიარქო']" routerLinkActive="active" >საპატრიარქო</a>
+        <a [routerLink]="['posts/სინოდი']" routerLinkActive="active" >წმინდა სინოდი</a>
+        <a [routerLink]="['posts/მსოფლიო']" routerLinkActive="active" >მსოფლიო</a>
+    </nav>
+</header>

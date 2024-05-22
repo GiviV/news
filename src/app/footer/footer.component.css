@@ -1,0 +1,30 @@
+
+footer {
+    background-color: #CCCCCC;
+  
+}
+
+
+section {
+    padding: 40px;
+    background-color: #6e000f;
+}
+
+.footer_bottom {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    color:#F5F5F5;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.footer_bottom div{
+    
+}

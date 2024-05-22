@@ -1,1 +1,101 @@
 /* You can add global styles to this file, and also import other style files */
+/* Reset CSS */
+
+/* Box model */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove default margin and padding */
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font and font size */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Remove list styles */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove default link styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Remove default table styles */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Remove default image styles */
+  img {
+    border: none;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Remove default fieldset styles */
+  fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove default legend styles */
+  legend {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove default button styles */
+  button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+    font: inherit;
+    cursor: pointer;
+  }
+  
+  /* Remove default input styles */
+  input {
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+  }
+  
+  /* Remove default textarea styles */
+  textarea {
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    resize: vertical;
+  }
+  
+  /* Remove default select styles */
+  select {
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+  }
+html, body { height: 100%; }
+body {
+    background-color: #F5F5F5; 
+    font-family: 'Noto Sans Georgian', sans-serif;
+} 
+
+
